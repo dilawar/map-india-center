@@ -85,6 +85,10 @@ $ cmake .
 $ make 
 ```
 
+## Data repository
+
+1. The raster GeoTIFF can be downloaded from 
+
 ## Notes
 
 ### Raster information using `gdalinfo`
