@@ -60,14 +60,13 @@ After this, computing the center of mass is easy. For each pixel, the elevation
 becomes the weight (in arbitrary units).  There are total 1,277,331,627 in my
 dataset (roughly equal to the population of the country!).
 
-__Technical note__ I computed the center of mass by converting the raster file
-to a simple CSV based grid file (30 GB in size!) and using `gawk` to compute
-the mean. `gawk` took ~7 minutes on my laptop to finish the job! 
+On 2020-06-14, I found the following coordinates: [23.3822,79.4862, See it on
+Open Street
+Map](http://www.openstreetmap.org/?mlon=79.4862&mlat=23.3822&zoom=8)
 
-On 2020-06-14, I found the following coordinates:
+Finally, here are both centroid and center of mass of the country.
 
-[23.3822,79.4862, See it on Open Street Map](http://www.openstreetmap.org/?mlon=79.4862&mlat=23.3822&zoom=8)
-
+![](./static/india_com.png)
 
 ## Pipeline
 
@@ -77,6 +76,7 @@ worked on Ubuntu 18.04 and should work on any relatively recent Linux.
 1. cmake (version 3.4 or higher)
 2. gdal
 3. unzip
+4. gawk
 
 To run the pipeline,
 
@@ -85,9 +85,13 @@ $ cmake .
 $ make 
 ```
 
+__Technical note__ I computed the center of mass by converting the raster file
+to a simple CSV based grid file (30 GB in size!) and using `gawk` to compute
+the mean. `gawk` took ~7 minutes on my laptop to finish the job! 
+
 ## Data repository
 
-1. The raster GeoTIFF can be downloaded from 
+1. The raster GeoTIFF can be downloaded from  https://doi.org/10.6084/m9.figshare.12479306.v2
 
 ## Notes
 
