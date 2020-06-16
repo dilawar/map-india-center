@@ -1,5 +1,3 @@
-[DEMO](index.html)
-
 This repository estimates centroid of India and its center of mass. Centroid is
 a rather simple concept: draw the boundary of India on a paper and find the
 center. 
@@ -60,9 +58,9 @@ After this, computing the center of mass is easy. For each pixel, the elevation
 becomes the weight (in arbitrary units).  There are total 1,277,331,627 in my
 dataset (roughly equal to the population of the country!).
 
-On 2020-06-14, I found the following coordinates: [23.3822,79.4862, See it on
+On 2020-06-14, I found the following coordinates: [28.6731,79.3426, See it on
 Open Street
-Map](http://www.openstreetmap.org/?mlon=79.4862&mlat=23.3822&zoom=8)
+Map](http://www.openstreetmap.org/?mlon=79.3426&mlat=28.6731&zoom=8)
 
 Finally, here are both centroid and center of mass of the country.
 
