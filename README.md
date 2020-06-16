@@ -1,3 +1,5 @@
+[DEMO](https://dilawar.github.io/map-india-center/)
+
 This repository estimates centroid of India and its center of mass. Centroid is
 a rather simple concept: draw the boundary of India on a paper and find the
 center. 
